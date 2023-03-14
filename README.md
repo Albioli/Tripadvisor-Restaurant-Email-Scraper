@@ -10,7 +10,8 @@ beautifulsoup4
 pandas
 You can install them via pip:
 
-```pip install requests beautifulsoup4 pandas
+```python
+pip install requests beautifulsoup4 pandas
 ```
 
 Copy code
