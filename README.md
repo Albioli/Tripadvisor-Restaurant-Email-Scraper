@@ -22,3 +22,11 @@ To use the program, simply run the script using Python from your command line in
 
 1. The base URL of the TripAdvisor restaurant listings, with a placeholder for the page number: 'https://www.tripadvisor.it/Restaurants-g187791-oa{page_num}-Rome_Lazio.html'
 2. The number of pages of listings to scrape
+
+```python
+python restaurant_email_scraper.py
+```
+After running the script, a pandas DataFrame containing the scraped email addresses and restaurant names will be printed to the console.
+
+Credits
+This program was created by Albioli as a demonstration of web scraping techniques using Python. It is intended for educational purposes only.
