@@ -1,13 +1,14 @@
-# Scraping Tripadvisor Restaurant Email Addresses
+# Restaurant Email Scraper
 
 This Python program scrapes the email addresses and names of restaurants listed on TripAdvisor for a given city. The program takes in the base URL for the city's restaurant page and the number of pages to scrape.
 
 ## Installation
-To use this program, you need to have Python 3 and the following libraries installed:
+To run this program, you need to have Python 3 installed on your machine, as well as the following libraries:
 
-requests
-beautifulsoup4
-pandas
+- requests
+- beautifulsoup4
+- pandas
+
 You can install them via pip:
 
 ```python
