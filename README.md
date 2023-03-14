@@ -9,23 +9,16 @@ To run this program, you need to have Python 3 installed on your machine, as wel
 - beautifulsoup4
 - pandas
 
-You can install them via pip:
+You can install these libraries using pip, for example:
 
 ```python
-pip install requests beautifulsoup4 pandas
+pip install requests
+pip install beautifulsoup4
+pip install pandas
 ```
 
-Copy code
-pip install requests beautifulsoup4 pandas
-Usage
-To use the program, simply run the script in a Python environment.
+## Usage
+To use the program, simply run the script using Python from your command line interface. The script takes two inputs:
 
-python
-Copy code
-python tripadvisor_scraper.py
-By default, the program will scrape the first two pages of restaurant listings for Rome, Italy. You can change the base_url variable to the URL of the restaurant page for a different city and the pages variable to the number of pages to scrape.
-
-### The program will output a Pandas DataFrame containing the email addresses and names of the scraped restaurants.
-
-### License
-This program is released under the MIT License.
+1. The base URL of the TripAdvisor restaurant listings, with a placeholder for the page number: 'https://www.tripadvisor.it/Restaurants-g187791-oa{page_num}-Rome_Lazio.html'
+2. The number of pages of listings to scrape
