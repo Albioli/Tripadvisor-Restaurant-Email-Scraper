@@ -20,7 +20,7 @@ pip install pandas
 ## Usage
 To use this program, you need to do the following:
 
-1. Open the script file and edit the __pages__ variable to indicate how many pages you want to scrape.
+1. Open the script file and edit the '__pages__' variable to indicate how many pages you want to scrape.
 2. Edit the __base_url__ variable to include the URL of the city you want to scrape.
 3. In the __base_url__ variable, replace "oa{page_num}" with the string that corresponds to the pagination parameter in the website's URL structure.
 4. Run the script.
