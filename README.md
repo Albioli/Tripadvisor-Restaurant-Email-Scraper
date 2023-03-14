@@ -1,4 +1,4 @@
-# Restaurant Email Scraper
+# Tripadvisor Restaurant Email Scraper
 
 This Python program scrapes the email addresses and names of restaurants listed on TripAdvisor for a given city. The program takes in the base URL for the city's restaurant page and the number of pages to scrape.
 
