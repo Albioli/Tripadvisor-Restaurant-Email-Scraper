@@ -22,7 +22,7 @@ To use this program, you need to do the following:
 
 1. Open the script file and edit the '__pages__' variable to indicate how many pages you want to scrape.
 2. Change the '__base_url__' variable to include the URL of the city you want to scrape.
-3. In the '__base_url__' variable add the string __"oa{page_num}"__.
+3. In the '__base_url__' variable add in the middle of the string __"oa{page_num}"__.
 4. Run the script.
 
 The output will be a Pandas DataFrame containing the email addresses and names of restaurants scraped from the TripAdvisor website for the specified city and number of pages.
