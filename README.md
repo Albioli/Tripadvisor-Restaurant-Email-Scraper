@@ -27,5 +27,5 @@ To use this program, you need to do the following:
 
 The output will be a Pandas DataFrame containing the email addresses and names of restaurants scraped from the TripAdvisor website for the specified city and number of pages.
 
-Credits
+## Credits
 This program was created by Albioli as a demonstration of web scraping techniques using Python. It is intended for educational purposes only.
