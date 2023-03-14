@@ -18,15 +18,14 @@ pip install pandas
 ```
 
 ## Usage
-To use the program, simply run the script using Python from your command line interface. The script takes two inputs:
+To use this program, you need to do the following:
 
-1. The base URL of the TripAdvisor restaurant listings, with a placeholder for the page number: 'https://www.tripadvisor.it/Restaurants-g187791-oa{page_num}-Rome_Lazio.html'
-2. The number of pages of listings to scrape
+1. Open the script file and edit the __pages__ variable to indicate how many pages you want to scrape.
+2. Edit the __base_url__ variable to include the URL of the city you want to scrape.
+3. In the __base_url__ variable, replace "oa{page_num}" with the string that corresponds to the pagination parameter in the website's URL structure.
+4. Run the script.
 
-```python
-python restaurant_email_scraper.py
-```
-After running the script, a pandas DataFrame containing the scraped email addresses and restaurant names will be printed to the console.
+The output will be a Pandas DataFrame containing the email addresses and names of restaurants scraped from the TripAdvisor website for the specified city and number of pages.
 
 Credits
 This program was created by Albioli as a demonstration of web scraping techniques using Python. It is intended for educational purposes only.
